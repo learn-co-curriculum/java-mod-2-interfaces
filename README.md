@@ -12,32 +12,6 @@ animals as a pet! This is great since both our `Cat` and `Parrot` could be
 considered a pet. So maybe we can just add some pet behaviors in our `Animal`
 class.
 
-```java
-package com.flatiron.animal;
-
-public abstract class Animal {
-   private String name;
-
-   protected Animal() {
-      this.name = "unknown";
-   }
-
-   public String getName() { return name; }
-   public void setName(String name) { this.name = name; }
-
-   public void eat() {
-      System.out.println("Yum! I like to eat!");
-   }
-
-   public abstract void makeSound();
-   
-   // New method
-   public void petAnimal() {
-       System.out.println("I love pets!");
-   }
-}
-```
-
 Wait... isn't a lion an animal too? And so is a tiger and a bear! Oh, my! We
 don't want to pet any of those animals - we might get eaten by one of them! Let
 us remove that method from our `Animal` class then.
