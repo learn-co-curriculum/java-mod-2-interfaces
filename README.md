@@ -193,7 +193,6 @@ public class Parrot extends Animal implements Pet, CanFly {
        System.out.println("I'm a parrot and I can fly between 81 and 200 miles per hour!");
    }
 }
-
 ```
 
 Now imagine that we are going into a pet store, and we know we want to adopt a
